@@ -1,0 +1,11 @@
+[Unit]
+Description=uWSGI instance to serve app
+After=network.target[Service]
+User=wafi
+Group=www-data
+WorkingDirectory=/root/webp
+Environtment = 
+ExecStart=
+
+[Install]
+WantedBy=multi-user.target
