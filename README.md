@@ -37,4 +37,5 @@ ini SS nya
 - javascript
 - python flask framework
 - firebase database
+- docker image (baru dicoba)
 
